@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Cintia Coke Can</title>
+    <style>
+        #can-wrapper {
+            width: 900px;
+            height: 750px;
+            position: relative;
+            margin: auto;
+            /* fallback */
+            background-color: #CCCCCC;
+            background-position: center center;
+            background-repeat: no-repeat;
+
+            /* Safari 4-5, Chrome 1-9 */
+            /* Can't specify a percentage size? Laaaaaame. */
+            background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FFFFFF), to(#999999));
+
+            /* Safari 5.1+, Chrome 10+ */
+            background: -webkit-radial-gradient(circle, #FFFFFF, #999999);
+
+            /* Firefox 3.6+ */
+            background: -moz-radial-gradient(circle, #FFFFFF, #999999);
+
+            /* IE 10 */
+            background: -ms-radial-gradient(circle, #FFFFFF, #999999);
+        }
+        #can-wrapper img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -260px;
+            margin-left: -136px;
+        }
+    </style>
+</head>
+<body>
+<div id="can-wrapper">
+    <img src="images/can.png">
+    
+</div>
+
+</body>
+</html>
